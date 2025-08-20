@@ -2,11 +2,15 @@ public class NeuesKontoStart {
 	public static void main (String [] args){
 		//Konstruktor 1
 		Konto giro = new Konto("Max Muster", 122.77, 1234567, 10050000, 0);
-		
+				
 		//Konstruktor 2
 		Konto spar = new Konto("Max Muster", 98765, 25050180, 0);
 		
-		if(giro.guthaben < spar.guthaben) {
+		//Setzen Guthaben
+		giro.setGuthaben(0.0);
+		spar.setGuthaben(0.0);
+		
+		if(giro.getGuthaben() < spar.getGuthaben()) {
 			System.out.println("Sparkonto voller als Girokonto.");
 		} else {
 			System.out.println("Girokonto voller als Sparkonto.");

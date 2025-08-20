@@ -1,10 +1,22 @@
 public class Konto {
 	static int anzahl;
 	String inhaber;
-	double guthaben;
+	private double guthaben;
 	int nummer;
 	int blz;
 	double limit;
+	
+	// Setzen der Attributwerte
+	public void setGuthaben(double betrag) {
+		if(betrag > 0.0) {
+			guthaben = guthaben + betrag;
+		}
+	}
+	
+	// Auslesen des Attributwertes
+	public double getGuthaben() {
+		return guthaben;
+	}
 	
 	// Konstrutktor 1: Mit Guthaben
 	Konto(String i, double g, int n, int b, double l) {
@@ -25,7 +37,6 @@ public class Konto {
 		limit = l;
 		anzahl++;
 	}
-		
 	
 	//eine nicht-statische Methode
 	// d.h. laesst sich nur aufrufen, wenn objekt erstellt und gefuellt
