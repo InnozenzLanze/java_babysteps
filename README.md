@@ -1,4 +1,12 @@
-Übungen 
+Übungen:
+
+eigenverantwortliches Lernen mit Nutzung von Notepad++ und command prompt
+
+Ziele (in vorerst simpelster Form):
+
+- Verständnis von Kapselung in Java
+- Verständnis für Erstellung von abstrakten Datentypen
+- Aufgreifen und Nutzen von externen Daten in Java
 
 Quellen: 
 
