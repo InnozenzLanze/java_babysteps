@@ -15,3 +15,4 @@ Quellen:
 3. Javabeginners bspw Liste selbst erstellen/nachvollziehen https://javabeginners.de/Sammlungen_und_Listen/Einfach_verkettete_Liste.php
 4. "JAVA Aufgaben und Übungen-Aufgaben, Lösungen, PAP und Struktogramme für den IT-Unterricht" Erich J. Schreiber, Springer Verlag, 2023
 5. Zeilenumbrüche plattformunabhängig halten https://www.techiedelight.com/de/print-newline-java
+6. "JAVA ist auch eine Insel" von Christian Ullenboom, Rheinwerk Verlag, 16.Auflage, https://openbook.rheinwerk-verlag.de/javainsel/
