@@ -1,5 +1,5 @@
 /**
-* float und double
+* SideNote "Sleepy-Operator"
 * @version 1.0 	2025-09-24
 * @author rmen source "Java ist auch eine Insel", christian ullenboom
 * "Java ist auch eine Insel", Rheinwerk-Verlag, 
