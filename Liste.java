@@ -1,16 +1,49 @@
-public class Liste {
+public class Liste {	//EinfachVerketteteListe
 	ListenElement listenKopf;
 
-	public Liste(int wert) {
+	public Liste(String wert) {	//Konstruktor
 		listenKopf = new ListenElement(wert);
 	}
 	
-	//public int laenge() {
-		//Muss noch implementiert werden...
-	//}
-	
-	public void fuegeHinzu(int wert) {
-		//Muss noch implementiert werden...
+	//Anfügen am Ende der Liste
+	public void fuegeHinzu(Inhalt inhalt) { 	// addLast(Object o)
+		ListenElement neuesElement = new ListenElement(inhalt);
+		ListenElement nachfolger = getNachfolger();
+		nachfolger.setNachfolger(neuesElement);
+	}
+		
+	/*
+	fuegeHinzuHinter() {
 		
 	}
+	*/
+	
+	/*
+	loescheElement() {
+		
+	}
+	*/
+	
+	/*
+	public int laenge() {
+		
+	}
+	*/
+	
+	/*
+	getKopfElement() {
+		
+	}
+	*/
+	
+	/*
+	getLetztesElement() {
+		
+	}
+	*/
+	
+	
+	
+	
+	
 }
